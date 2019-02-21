@@ -1,0 +1,1 @@
+/Users/eason/.config/nvim/init.vim
