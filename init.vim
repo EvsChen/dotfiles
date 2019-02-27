@@ -100,7 +100,13 @@ augroup filetype_html
 augroup END
 
 " fzf
-set rtp+=/usr/local/opt/fzf
+if system('uname') == 'Darwin'
+        " in mac system, install fzf using homebrew
+        set rtp+=/usr/local/opt/fzf
+elseif system('uname') == 'Linux'
+        set rtp+=~/.fzf
+endif
+
 let g:fzf_action = {
   \ 'enter': 'tab split',
   \ 'ctrl-x': 'split',
