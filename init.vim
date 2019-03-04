@@ -5,14 +5,13 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
+"call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-syntastic/syntastic'
+Plugin 'w0rp/ale'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
 if has('nvim')
@@ -23,6 +22,8 @@ else
   Plugin 'roxma/vim-hug-neovim-rpc'
 endif
 Plugin 'zchee/deoplete-jedi'
+Plugin 'davidhalter/jedi-vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -101,6 +102,7 @@ augroup filetype_html
 augroup END
 
 " fzf
+nnoremap <C-p> :GFiles<CR>
 if system('uname') == 'Darwin'
         " in mac system, install fzf using homebrew
         set rtp+=/usr/local/opt/fzf
@@ -113,19 +115,14 @@ let g:fzf_action = {
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 
-" Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_checkers = ['pylint']
-let g:syntastic_python_pylint_post_args="--max-line-length=120"
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
+" ale
+let g:ale_linters = { 'python': ['flake8'] }
+let g:ale_open_list = 1
+let g:ale_python_flake8_options = '--ignore=E252 --max-line-length=120'
+augroup CloseLoclistWindowGroup
+        autocmd!
+        autocmd QuitPre * if empty(&buftype) | lclose | endif
+augroup END
 
 "NerdTree
 map <C-n> :NERDTreeToggle<CR>
@@ -135,13 +132,4 @@ let g:NERDTreeHijackNetrw=0
 let g:deoplete#enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
-"ctrlp
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-let g:ctrlp_prompt_mappings = {
-    \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
-    \ 'AcceptSelection("t")': ['<cr>'],
-    \ }
-
+" fzf
