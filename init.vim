@@ -14,6 +14,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf'
 if has('nvim')
   Plugin 'Shougo/deoplete.nvim'
 else
