@@ -125,7 +125,7 @@ augroup CloseLoclistWindowGroup
 augroup END
 
 "NerdTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle %<CR>
 let g:NERDTreeHijackNetrw=0
 
 "deoplete
