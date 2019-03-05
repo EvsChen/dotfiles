@@ -1,0 +1,21 @@
+{
+  "editor.fontSize": 14,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "workbench.editor.enablePreview": false,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "window.zoomLevel": 0,
+  "[python]": {},
+  "breadcrumbs.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true
+  },
+  "python.linting.pylintArgs": ["--enable=W0614"],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ]
+}
