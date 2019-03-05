@@ -49,7 +49,7 @@ iabbrev waht what
 iabbrev @@ chensy1996@gmail.com
 inoremap <leader><c-u> <esc>viwUwa
 nnoremap <leader><c-u> viwUw
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :split $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>v
 inoremap jk <esc>
