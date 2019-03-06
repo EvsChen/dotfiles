@@ -118,6 +118,7 @@ let g:fzf_action = {
 " ale
 let g:ale_linters = { 'python': ['flake8'] }
 let g:ale_open_list = 1
+let g:ale_keep_list_window_open = 1
 let g:ale_python_flake8_options = '--ignore=E252 --max-line-length=120'
 augroup CloseLoclistWindowGroup
         autocmd!
