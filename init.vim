@@ -40,6 +40,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 set fileencoding=utf-8
 set expandtab
+set number
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 let mapleader = ","
