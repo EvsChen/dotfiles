@@ -69,6 +69,9 @@ onoremap an{ :<c-u>normal! f{va{<cr>
 onoremap il{ :<c-u>normal! F}vi{<cr>
 onoremap al{ :<c-u>normal! F}va{<cr>
 
+" Fold
+nnoremap <space> za
+vnoremap <space> zf
 
 
 " Force training by mapping
@@ -93,6 +96,7 @@ augroup END
 augroup filetype_python
         autocmd!
         autocmd FileType python     nnoremap <localleader>c <buffer> I#<esc>
+        autocmd FileType python     setlocal foldmethod=indent
 augroup END
 
 augroup filetype_html
@@ -116,7 +120,7 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit' }
 
 " ale
-let g:ale_linters = { 'python': ['flake8'] }
+let g:ale_linters = { 'python': ['pylint'] }
 let g:ale_open_list = 1
 let g:ale_keep_list_window_open = 1
 let g:ale_python_flake8_options = '--ignore=E252 --max-line-length=120'
