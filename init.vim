@@ -55,6 +55,10 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>v
 inoremap jk <esc>
 
+" Match parenthese
+inoremap ( ()<Esc>i
+inoremap { {<CR><BS>}<Esc>ko
+
 " In next parenthese
 onoremap in( :<c-u>normal! f(vi(<cr>
 " Around next parenthese
