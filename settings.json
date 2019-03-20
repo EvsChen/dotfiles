@@ -12,10 +12,17 @@
     "suppressCommitNotFoundWarning": true
   },
   "python.linting.pylintArgs": ["--enable=W0614"],
+  "vim.leader": ",",
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
       "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "{"],
+      "after": ["v", "f", "{", "%"]
     }
   ]
 }

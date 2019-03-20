@@ -23,6 +23,8 @@ else
 endif
 Plugin 'zchee/deoplete-jedi'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'hdima/python-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,6 +43,7 @@ filetype plugin indent on    " required
 set fileencoding=utf-8
 set expandtab
 set number
+colorscheme blackboard
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 let mapleader = ","
@@ -55,8 +58,10 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>v
 inoremap jk <esc>
 
-" Match parenthese
+" Match parenthese and quotation mark
 inoremap ( ()<Esc>i
+inoremap " ""<Esc>i
+inoremap ' ''<Esc>i
 inoremap { {<CR><BS>}<Esc>ko
 
 " In next parenthese
@@ -110,6 +115,8 @@ augroup filetype_html
         autocmd BufNewFile,BufRead *.html setlocal nowrap
 augroup END
 
+" Python highlight 
+let python_highlight_all = 1
 " fzf
 nnoremap <C-p> :GFiles<CR>
 if system('uname') == 'Darwin'
