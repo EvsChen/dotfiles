@@ -51,6 +51,8 @@ let maplocalleader = "\\"
 iabbrev adn and
 iabbrev waht what
 iabbrev @@ chensy1996@gmail.com
+noremap <leader>ta :Windows<cr> 
+noremap <leader>tw :tabclo<cr>
 inoremap <leader><c-u> <esc>viwUwa
 nnoremap <leader><c-u> viwUw
 nnoremap <leader>ev :split $MYVIMRC<cr>
