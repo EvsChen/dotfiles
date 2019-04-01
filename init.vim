@@ -14,17 +14,10 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'w0rp/ale'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
-if has('nvim')
-  Plugin 'Shougo/deoplete.nvim'
-else
-  Plugin 'Shougo/deoplete.nvim'
-  Plugin 'roxma/nvim-yarp'
-  Plugin 'roxma/vim-hug-neovim-rpc'
-endif
-Plugin 'zchee/deoplete-jedi'
-Plugin 'davidhalter/jedi-vim'
+" Plugin 'Shougo/deoplete.nvim'
+" Plugin 'zchee/deoplete-jedi'
+" Plugin 'davidhalter/jedi-vim'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'hdima/python-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -44,8 +37,8 @@ set fileencoding=utf-8
 set expandtab
 set number
 colorscheme blackboard
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:match ExtraWhitespace /\s\+$/
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 let mapleader = ","
 let maplocalleader = "\\"
 iabbrev adn and
@@ -117,8 +110,6 @@ augroup filetype_html
         autocmd BufNewFile,BufRead *.html setlocal nowrap
 augroup END
 
-" Python highlight 
-let python_highlight_all = 1
 " fzf
 nnoremap <C-p> :GFiles<CR>
 if system('uname') == 'Darwin'
@@ -134,10 +125,25 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit' }
 
 " ale
-let g:ale_linters = { 'python': ['pylint'] }
+inoremap <silent><expr> <Tab>
+      \ pumvisible() ? "\<C-n>" : "\<TAB>"
+let g:ale_linters = { 'python': ['pylint', 'pyls'] }
 let g:ale_open_list = 1
+let g:ale_completion_enabled = 1
 let g:ale_keep_list_window_open = 1
+let g:ale_completion_max_suggestions = 10
 let g:ale_python_flake8_options = '--ignore=E252 --max-line-length=120'
+let g:ale_python_pyls_config = {
+                                \'pyls': {
+                                        \'plugins': {
+                                                        \'pyflakes': { 'enabled': v:false },
+                                                        \'flake8': { 'enabled': v:false },
+                                                        \ 'pycodestyle': { 'enabled': v:false },
+                                                        \ 'pylint': { 'enabled': v:false }
+                                                \}
+                                        \}
+                                \}
+
 augroup CloseLoclistWindowGroup
         autocmd!
         autocmd QuitPre * if empty(&buftype) | lclose | endif
@@ -146,9 +152,5 @@ augroup END
 "NerdTree
 map <C-n> :NERDTreeToggle %<CR>
 let g:NERDTreeHijackNetrw=0
-
-"deoplete
-let g:deoplete#enable_at_startup = 1
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " fzf
