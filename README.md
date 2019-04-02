@@ -10,3 +10,6 @@ ln ~/dotfiles/init.vim ~/vagrant/py3/init.vim
 ```bash
 ln -s /vagrant/init.vim ~/.config/nvim/init.vim
 ```
+
+## Cronjob to sync the repo every ten minites
+0,10,20,30,40,50 8-20 * * * ~/dotfiles/cron.sh >/tmp/cron-stdout.log 2>/tmp/cron-stderr.log
