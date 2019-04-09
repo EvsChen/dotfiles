@@ -1,18 +1,4 @@
 {
-    "8": {
-        "_id": 8,
-        "_date": "Mon Apr 01 2019",
-        "_timestamp": 1554088926812,
-        "description": "don't ask info in login page",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": false,
-        "priority": 1
-    },
     "18": {
         "_id": 18,
         "_date": "Wed Apr 03 2019",
