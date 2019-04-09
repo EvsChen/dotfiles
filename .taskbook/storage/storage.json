@@ -23,7 +23,7 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1
     },
@@ -65,7 +65,7 @@
             "@idea"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1
     },
@@ -135,5 +135,19 @@
             "@glow"
         ],
         "_isTask": false
+    },
+    "36": {
+        "_id": 36,
+        "_date": "Tue Apr 09 2019",
+        "_timestamp": 1554804918037,
+        "description": "appt: address",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": false,
+        "priority": 1
     }
 }
