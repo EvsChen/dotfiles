@@ -104,8 +104,8 @@
             "@idea"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1
     },
     "40": {
