@@ -10,7 +10,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
+        "inProgress": true,
         "priority": 1
     },
     "24": {
@@ -44,7 +44,7 @@
     "30": {
         "_id": 30,
         "_date": "Wed Apr 10 2019",
-        "_timestamp": 1554876245774,
+        "_timestamp": 1554888481691,
         "description": "taskbook impl. due date feat.",
         "isStarred": false,
         "boards": [
