@@ -52,34 +52,6 @@
         "inProgress": false,
         "priority": 1
     },
-    "40": {
-        "_id": 40,
-        "_date": "Wed Apr 10 2019",
-        "_timestamp": 1554880120370,
-        "description": "taskbook easy extension of prompts",
-        "isStarred": false,
-        "boards": [
-            "@idea"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": false,
-        "priority": 1
-    },
-    "41": {
-        "_id": 41,
-        "_date": "Wed Apr 10 2019",
-        "_timestamp": 1554889385098,
-        "description": "vim python completion slow",
-        "isStarred": false,
-        "boards": [
-            "@idea"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
     "42": {
         "_id": 42,
         "_date": "Thu Apr 11 2019",
@@ -120,20 +92,6 @@
         "_isTask": true,
         "isComplete": false,
         "inProgress": true,
-        "priority": 1
-    },
-    "45": {
-        "_id": 45,
-        "_date": "Fri Apr 12 2019",
-        "_timestamp": 1555063761350,
-        "description": "good task",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": false,
         "priority": 1
     }
 }
