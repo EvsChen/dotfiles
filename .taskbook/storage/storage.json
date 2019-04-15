@@ -62,8 +62,8 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1
     },
     "43": {
@@ -99,6 +99,20 @@
         "_date": "Mon Apr 15 2019",
         "_timestamp": 1555296966567,
         "description": "appointment status label",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1
+    },
+    "46": {
+        "_id": 46,
+        "_date": "Mon Apr 15 2019",
+        "_timestamp": 1555297624696,
+        "description": "connect onboarding questions with server",
         "isStarred": false,
         "boards": [
             "@glow"
