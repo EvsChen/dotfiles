@@ -110,8 +110,8 @@
     },
     "46": {
         "_id": 46,
-        "_date": "Mon Apr 15 2019",
-        "_timestamp": 1555297624696,
+        "_date": "Tue Apr 16 2019",
+        "_timestamp": 1555381727152,
         "description": "connect onboarding questions with server",
         "isStarred": false,
         "boards": [
@@ -119,7 +119,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1
     }
 }
