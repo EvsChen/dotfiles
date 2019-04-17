@@ -126,7 +126,7 @@
         "_id": 47,
         "_date": "Wed Apr 17 2019",
         "_timestamp": 1555482133883,
-        "description": "fix checklist api",
+        "description": "(pending for Chester) fix checklist api",
         "isStarred": false,
         "boards": [
             "@glow"
@@ -168,7 +168,7 @@
         "_id": 50,
         "_date": "Wed Apr 17 2019",
         "_timestamp": 1555482320601,
-        "description": "transfer credit",
+        "description": "(pending for broken umji website) transfer credit",
         "isStarred": false,
         "boards": [
             "@sjtu"
