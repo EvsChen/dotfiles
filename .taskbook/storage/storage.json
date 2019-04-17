@@ -42,7 +42,7 @@
         "_id": 36,
         "_date": "Wed Apr 10 2019",
         "_timestamp": 1554878673183,
-        "description": "appt: address",
+        "description": "appt, checklist: facility google map",
         "isStarred": false,
         "boards": [
             "@glow"
@@ -132,8 +132,8 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1
     },
     "48": {
@@ -174,8 +174,8 @@
             "@sjtu"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1
     }
 }
