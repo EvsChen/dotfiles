@@ -119,7 +119,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
+        "inProgress": true,
         "priority": 1
     },
     "47": {
