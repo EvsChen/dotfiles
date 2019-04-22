@@ -91,7 +91,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
+        "inProgress": true,
         "priority": 1
     },
     "45": {
@@ -146,8 +146,8 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": "2"
     },
     "49": {
@@ -200,6 +200,48 @@
         "isStarred": false,
         "boards": [
             "@gsoc"
+        ],
+        "_isTask": true,
+        "isComplete": true,
+        "inProgress": false,
+        "priority": 1
+    },
+    "53": {
+        "_id": 53,
+        "_date": "Mon Apr 22 2019",
+        "_timestamp": 1555919362882,
+        "description": "document preview",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1
+    },
+    "54": {
+        "_id": 54,
+        "_date": "Mon Apr 22 2019",
+        "_timestamp": 1555919369643,
+        "description": "document upload",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1
+    },
+    "55": {
+        "_id": 55,
+        "_date": "Mon Apr 22 2019",
+        "_timestamp": 1555919379160,
+        "description": "document download test",
+        "isStarred": false,
+        "boards": [
+            "@glow"
         ],
         "_isTask": true,
         "isComplete": false,
