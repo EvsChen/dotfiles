@@ -217,8 +217,8 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
-        "priority": 1
+        "inProgress": true,
+        "priority": "2"
     },
     "54": {
         "_id": 54,
@@ -245,8 +245,8 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
-        "priority": 1
+        "inProgress": true,
+        "priority": "2"
     },
     "57": {
         "_id": 57,
@@ -272,5 +272,19 @@
         "isComplete": false,
         "inProgress": true,
         "priority": 1
+    },
+    "59": {
+        "_id": 59,
+        "_date": "Wed Apr 24 2019",
+        "_timestamp": 1556072605334,
+        "description": "mdn-annotation plugin test",
+        "isStarred": false,
+        "boards": [
+            "@gsoc"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": "3"
     }
 }
