@@ -216,8 +216,8 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": "2"
     },
     "54": {
@@ -297,8 +297,8 @@
             "@gsoc"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1
     }
 }
