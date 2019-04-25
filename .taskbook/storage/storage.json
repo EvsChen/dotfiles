@@ -271,7 +271,7 @@
         "_isTask": true,
         "isComplete": false,
         "inProgress": true,
-        "priority": 1
+        "priority": "2"
     },
     "59": {
         "_id": 59,
