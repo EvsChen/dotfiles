@@ -10,7 +10,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
+        "inProgress": true,
         "priority": "2"
     },
     "30": {
@@ -222,8 +222,8 @@
     },
     "54": {
         "_id": 54,
-        "_date": "Mon Apr 22 2019",
-        "_timestamp": 1555919369643,
+        "_date": "Thu Apr 25 2019",
+        "_timestamp": 1556158635355,
         "description": "document upload",
         "isStarred": false,
         "boards": [
@@ -231,7 +231,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1
     },
     "55": {
@@ -286,5 +286,19 @@
         "isComplete": true,
         "inProgress": false,
         "priority": "3"
+    },
+    "60": {
+        "_id": 60,
+        "_date": "Thu Apr 25 2019",
+        "_timestamp": 1556158677101,
+        "description": "Resolve comments",
+        "isStarred": false,
+        "boards": [
+            "@gsoc"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1
     }
 }
