@@ -90,8 +90,8 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1
     },
     "45": {
@@ -110,8 +110,8 @@
     },
     "46": {
         "_id": 46,
-        "_date": "Tue Apr 16 2019",
-        "_timestamp": 1555381727152,
+        "_date": "Sun Apr 28 2019",
+        "_timestamp": 1556440674483,
         "description": "connect onboarding questions with server",
         "isStarred": false,
         "boards": [
@@ -119,7 +119,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1
     },
     "47": {
