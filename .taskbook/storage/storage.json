@@ -38,34 +38,6 @@
         ],
         "_isTask": false
     },
-    "36": {
-        "_id": 36,
-        "_date": "Wed Apr 10 2019",
-        "_timestamp": 1554878673183,
-        "description": "appt, checklist: facility google map",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "42": {
-        "_id": 42,
-        "_date": "Thu Apr 11 2019",
-        "_timestamp": 1554956621985,
-        "description": "configurable onboarding question UI",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
     "43": {
         "_id": 43,
         "_date": "Fri Apr 12 2019",
@@ -77,34 +49,6 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
-        "priority": 1
-    },
-    "44": {
-        "_id": 44,
-        "_date": "Wed Apr 17 2019",
-        "_timestamp": 1555482330977,
-        "description": "add new checkbox to both login",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "45": {
-        "_id": 45,
-        "_date": "Mon Apr 15 2019",
-        "_timestamp": 1555296966567,
-        "description": "appointment status label",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
         "inProgress": false,
         "priority": 1
     },
@@ -122,104 +66,6 @@
         "inProgress": false,
         "priority": 1
     },
-    "47": {
-        "_id": 47,
-        "_date": "Wed Apr 17 2019",
-        "_timestamp": 1555482133883,
-        "description": "(pending for Chester) fix checklist api",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "48": {
-        "_id": 48,
-        "_date": "Wed Apr 17 2019",
-        "_timestamp": 1555482172906,
-        "description": "document UI",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": "2"
-    },
-    "49": {
-        "_id": 49,
-        "_date": "Wed Apr 17 2019",
-        "_timestamp": 1555482234929,
-        "description": "comments in respec PR",
-        "isStarred": false,
-        "boards": [
-            "@gsoc"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "50": {
-        "_id": 50,
-        "_date": "Wed Apr 17 2019",
-        "_timestamp": 1555482320601,
-        "description": "(pending for broken umji website) transfer credit",
-        "isStarred": false,
-        "boards": [
-            "@sjtu"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "51": {
-        "_id": 51,
-        "_date": "Thu Apr 18 2019",
-        "_timestamp": 1555556292777,
-        "description": "onboarding bug",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "52": {
-        "_id": 52,
-        "_date": "Mon Apr 22 2019",
-        "_timestamp": 1555933287233,
-        "description": "respec comments",
-        "isStarred": false,
-        "boards": [
-            "@gsoc"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
-    "53": {
-        "_id": 53,
-        "_date": "Mon Apr 22 2019",
-        "_timestamp": 1555933294569,
-        "description": "document preview",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": "2"
-    },
     "54": {
         "_id": 54,
         "_date": "Thu Apr 25 2019",
@@ -234,20 +80,6 @@
         "inProgress": false,
         "priority": 1
     },
-    "55": {
-        "_id": 55,
-        "_date": "Mon Apr 22 2019",
-        "_timestamp": 1555933277762,
-        "description": "document download test",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": "2"
-    },
     "57": {
         "_id": 57,
         "_date": "Mon Apr 22 2019",
@@ -258,48 +90,6 @@
             "@glow"
         ],
         "_isTask": false
-    },
-    "58": {
-        "_id": 58,
-        "_date": "Mon Apr 22 2019",
-        "_timestamp": 1555933266863,
-        "description": "change glowcare onboarding carousel",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": "2"
-    },
-    "59": {
-        "_id": 59,
-        "_date": "Wed Apr 24 2019",
-        "_timestamp": 1556072605334,
-        "description": "mdn-annotation plugin test",
-        "isStarred": false,
-        "boards": [
-            "@gsoc"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": "3"
-    },
-    "60": {
-        "_id": 60,
-        "_date": "Thu Apr 25 2019",
-        "_timestamp": 1556158677101,
-        "description": "Resolve comments",
-        "isStarred": false,
-        "boards": [
-            "@gsoc"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
     },
     "61": {
         "_id": 61,
