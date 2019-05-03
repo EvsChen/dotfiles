@@ -1,1 +1,1 @@
-cd ~/dotfiles && git add . && git commit -m 'Auto sync' && git push
+cd ~/dotfiles && git add . && git commit -m 'Auto sync all files' && git push
