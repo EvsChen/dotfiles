@@ -94,21 +94,6 @@
         "inProgress": false,
         "priority": 1
     },
-    "62": {
-        "_id": 62,
-        "_date": "Wed May 01 2019",
-        "_timestamp": 1556678047268,
-        "description": "notification ui",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 4969100284
-    },
     "63": {
         "_id": 63,
         "_date": "Tue May 07 2019",
@@ -138,36 +123,6 @@
         "inProgress": false,
         "priority": 1,
         "wltask_id": 4969897177
-    },
-    "65": {
-        "_id": 65,
-        "_date": "Mon Apr 29 2019",
-        "_timestamp": 1556529797542,
-        "description": "afterI20: apply for evo",
-        "isStarred": false,
-        "boards": [
-            "@personal"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 4969906747
-    },
-    "68": {
-        "_id": 68,
-        "_date": "Wed May 01 2019",
-        "_timestamp": 1556678125245,
-        "description": "course selection",
-        "isStarred": false,
-        "boards": [
-            "@sjtu"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 4975791491
     },
     "69": {
         "_id": 69,
@@ -243,5 +198,21 @@
         "inProgress": true,
         "priority": 1,
         "wltask_id": 4994685295
+    },
+    "74": {
+        "_id": 74,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557192358164,
+        "description": "try new check remote task",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1,
+        "wltask_id": 4994711274,
+        "wltask_revision": 1
     }
 }
