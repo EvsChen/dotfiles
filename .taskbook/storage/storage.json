@@ -82,8 +82,8 @@
     },
     "61": {
         "_id": 61,
-        "_date": "Fri Apr 26 2019",
-        "_timestamp": 1556245724338,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557191436505,
         "description": "tfjs!",
         "isStarred": false,
         "boards": [
@@ -91,7 +91,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1
     },
     "62": {
@@ -111,8 +111,8 @@
     },
     "63": {
         "_id": 63,
-        "_date": "Mon Apr 29 2019",
-        "_timestamp": 1556529539714,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557191429755,
         "description": "afterI20: complete ds-160",
         "isStarred": false,
         "boards": [
@@ -120,14 +120,14 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4969896179
     },
     "64": {
         "_id": 64,
-        "_date": "Mon Apr 29 2019",
-        "_timestamp": 1556529563965,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557191429755,
         "description": "afterI20: arrange visa interview",
         "isStarred": false,
         "boards": [
@@ -135,7 +135,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4969897177
     },
@@ -171,8 +171,8 @@
     },
     "69": {
         "_id": 69,
-        "_date": "Fri May 03 2019",
-        "_timestamp": 1556850917169,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557191429755,
         "description": "add priciples",
         "isStarred": false,
         "boards": [
@@ -180,14 +180,14 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4981899958
     },
     "70": {
         "_id": 70,
-        "_date": "Fri May 03 2019",
-        "_timestamp": 1556850983416,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557191429755,
         "description": "quit job",
         "isStarred": false,
         "boards": [
@@ -195,14 +195,14 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4981901512
     },
     "71": {
         "_id": 71,
-        "_date": "Sat May 04 2019",
-        "_timestamp": 1556940185484,
+        "_date": "Tue May 07 2019",
+        "_timestamp": 1557191429755,
         "description": "vim notebook",
         "isStarred": false,
         "boards": [
@@ -210,7 +210,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4985097589
     },
