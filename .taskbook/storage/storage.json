@@ -194,11 +194,10 @@
             "@personal"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 4994802855,
-        "wltask_revision": 1
+        "wltask_id": 4994802855
     },
     "75": {
         "_id": 75,
