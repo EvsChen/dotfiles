@@ -179,8 +179,8 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4994685295
     },
