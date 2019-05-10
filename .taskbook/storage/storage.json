@@ -225,11 +225,10 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 5001116647,
-        "wltask_revision": 1
+        "wltask_id": 5001116647
     },
     "77": {
         "_id": 77,
