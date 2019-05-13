@@ -2,14 +2,13 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
-Plug 'VundleVim/Vundle.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'w0rp/ale'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf'
 Plug 'flazz/vim-colorschemes'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install', 'for': 'markdown'}
 call plug#end()
 
 set fileencoding=utf-8
@@ -68,7 +67,7 @@ inoremap <Down> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
 inoremap <Esc> <nop>
-" autocmd  
+" autocmd
 augroup filetype_js
         autocmd!
         autocmd FileType javascript nnoremap <localleader>c <buffer> I//<esc>
