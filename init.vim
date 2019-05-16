@@ -14,6 +14,7 @@ call plug#end()
 set fileencoding=utf-8
 set expandtab
 set number
+set tabstop=2
 colorscheme blackboard
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
