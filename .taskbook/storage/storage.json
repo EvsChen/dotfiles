@@ -52,7 +52,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": false,
+        "inProgress": true,
         "priority": 1
     },
     "54": {
@@ -65,7 +65,7 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1
     },
@@ -230,11 +230,10 @@
             "@sjtu"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 5020247615,
-        "wltask_revision": 1
+        "wltask_id": 5020247615
     },
     "82": {
         "_id": 82,
@@ -262,5 +261,21 @@
             "@glow"
         ],
         "_isTask": false
+    },
+    "84": {
+        "_id": 84,
+        "_date": "Fri May 17 2019",
+        "_timestamp": 1558063135849,
+        "description": "check doc toolbar=0",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1,
+        "wltask_id": 5026440118,
+        "wltask_revision": 1
     }
 }
