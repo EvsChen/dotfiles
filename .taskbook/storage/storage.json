@@ -272,10 +272,20 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 5026440118,
-        "wltask_revision": 1
+        "wltask_id": 5026440118
+    },
+    "85": {
+        "_id": 85,
+        "_date": "Fri May 17 2019",
+        "_timestamp": 1558090019478,
+        "description": "branch: onboard-sync",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": false
     }
 }
