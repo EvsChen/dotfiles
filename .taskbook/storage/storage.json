@@ -55,20 +55,6 @@
         "inProgress": false,
         "priority": 1
     },
-    "54": {
-        "_id": 54,
-        "_date": "Thu Apr 25 2019",
-        "_timestamp": 1556158635355,
-        "description": "document upload",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1
-    },
     "61": {
         "_id": 61,
         "_date": "Tue May 07 2019",
@@ -175,97 +161,6 @@
         "wltask_id": 5001797103,
         "wltask_revision": 1
     },
-    "78": {
-        "_id": 78,
-        "_date": "Mon May 13 2019",
-        "_timestamp": 1557759548194,
-        "description": "about dormitory",
-        "isStarred": false,
-        "boards": [
-            "@sjtu"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5015178596
-    },
-    "79": {
-        "_id": 79,
-        "_date": "Mon May 13 2019",
-        "_timestamp": 1557761711248,
-        "description": "finish 15-213 lab0",
-        "isStarred": false,
-        "boards": [
-            "@cs"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5015311764
-    },
-    "80": {
-        "_id": 80,
-        "_date": "Tue May 14 2019",
-        "_timestamp": 1557763632210,
-        "description": "huanlegu order",
-        "isStarred": false,
-        "boards": [
-            "@personal"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
-        "priority": 1,
-        "wltask_id": 5015424608
-    },
-    "81": {
-        "_id": 81,
-        "_date": "Wed May 15 2019",
-        "_timestamp": 1557897875352,
-        "description": "exchange script",
-        "isStarred": false,
-        "boards": [
-            "@sjtu"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5020247615
-    },
-    "82": {
-        "_id": 82,
-        "_date": "Wed May 15 2019",
-        "_timestamp": 1557902749914,
-        "description": "photo collection",
-        "isStarred": false,
-        "boards": [
-            "@personal"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5020413083,
-        "wltask_revision": 1
-    },
-    "84": {
-        "_id": 84,
-        "_date": "Fri May 17 2019",
-        "_timestamp": 1558063135849,
-        "description": "check doc toolbar=0",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5026440118
-    },
     "85": {
         "_id": 85,
         "_date": "Fri May 17 2019",
@@ -295,7 +190,7 @@
     "87": {
         "_id": 87,
         "_date": "Sun May 19 2019",
-        "_timestamp": 1558230593112,
+        "_timestamp": 1558230664750,
         "description": "VG496 assignment",
         "isStarred": false,
         "boards": [
@@ -303,7 +198,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 5032367445
     }
