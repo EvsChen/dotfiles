@@ -200,8 +200,8 @@
             "@cs"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 5015311764
     },
@@ -276,5 +276,35 @@
             "@glow"
         ],
         "_isTask": false
+    },
+    "86": {
+        "_id": 86,
+        "_date": "Sun May 19 2019",
+        "_timestamp": 1558230577954,
+        "description": "VR238 group selection",
+        "isStarred": false,
+        "boards": [
+            "@sjtu"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1,
+        "wltask_id": 5032367158
+    },
+    "87": {
+        "_id": 87,
+        "_date": "Sun May 19 2019",
+        "_timestamp": 1558230593112,
+        "description": "VG496 assignment",
+        "isStarred": false,
+        "boards": [
+            "@sjtu"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1,
+        "wltask_id": 5032367445
     }
 }
