@@ -79,7 +79,7 @@
             "@personal"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1,
         "wltask_id": 4969896179
@@ -94,7 +94,7 @@
             "@personal"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1,
         "wltask_id": 4969897177
@@ -182,8 +182,8 @@
             "@sjtu"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 5032367158
     },
@@ -212,11 +212,10 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 5035452807,
-        "wltask_revision": 1
+        "wltask_id": 5035452807
     },
     "89": {
         "_id": 89,
