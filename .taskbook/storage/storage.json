@@ -155,11 +155,10 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1,
-        "wltask_id": 5001797103,
-        "wltask_revision": 1
+        "wltask_id": 5001797103
     },
     "85": {
         "_id": 85,
@@ -227,10 +226,9 @@
             "@glow"
         ],
         "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
+        "isComplete": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 5035743411,
-        "wltask_revision": 1
+        "wltask_id": 5035743411
     }
 }
