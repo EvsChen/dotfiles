@@ -41,20 +41,6 @@
         "inProgress": false,
         "priority": 1
     },
-    "46": {
-        "_id": 46,
-        "_date": "Sat May 18 2019",
-        "_timestamp": 1558168537434,
-        "description": "connect onboarding questions with server",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": false,
-        "priority": 1
-    },
     "61": {
         "_id": 61,
         "_date": "Tue May 07 2019",
@@ -68,36 +54,6 @@
         "isComplete": false,
         "inProgress": false,
         "priority": 1
-    },
-    "63": {
-        "_id": 63,
-        "_date": "Tue May 07 2019",
-        "_timestamp": 1557191429755,
-        "description": "afterI20: complete ds-160",
-        "isStarred": false,
-        "boards": [
-            "@personal"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 4969896179
-    },
-    "64": {
-        "_id": 64,
-        "_date": "Tue May 07 2019",
-        "_timestamp": 1557191429755,
-        "description": "afterI20: arrange visa interview",
-        "isStarred": false,
-        "boards": [
-            "@personal"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 4969897177
     },
     "69": {
         "_id": 69,
@@ -145,21 +101,6 @@
         "wltask_id": 4994807708,
         "wltask_revision": 1
     },
-    "77": {
-        "_id": 77,
-        "_date": "Sat May 18 2019",
-        "_timestamp": 1558168553977,
-        "description": "change hippa -> hipaa",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5001797103
-    },
     "85": {
         "_id": 85,
         "_date": "Fri May 17 2019",
@@ -170,21 +111,6 @@
             "@glow"
         ],
         "_isTask": false
-    },
-    "86": {
-        "_id": 86,
-        "_date": "Sun May 19 2019",
-        "_timestamp": 1558230577954,
-        "description": "VR238 group selection",
-        "isStarred": false,
-        "boards": [
-            "@sjtu"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5032367158
     },
     "87": {
         "_id": 87,
@@ -200,35 +126,5 @@
         "inProgress": false,
         "priority": 1,
         "wltask_id": 5032367445
-    },
-    "88": {
-        "_id": 88,
-        "_date": "Mon May 20 2019",
-        "_timestamp": 1558320374413,
-        "description": "change tab title",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5035452807
-    },
-    "89": {
-        "_id": 89,
-        "_date": "Mon May 20 2019",
-        "_timestamp": 1558331102747,
-        "description": "add reset password page for app under `/app-forget-password`",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": true,
-        "isComplete": true,
-        "inProgress": false,
-        "priority": 1,
-        "wltask_id": 5035743411
     }
 }
