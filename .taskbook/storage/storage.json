@@ -122,9 +122,25 @@
             "@sjtu"
         ],
         "_isTask": true,
-        "isComplete": false,
+        "isComplete": true,
         "inProgress": false,
         "priority": 1,
         "wltask_id": 5032367445
+    },
+    "88": {
+        "_id": 88,
+        "_date": "Tue May 28 2019",
+        "_timestamp": 1559017336420,
+        "description": "listen to a16z podcast on decision making",
+        "isStarred": false,
+        "boards": [
+            "@sjtu"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1,
+        "wltask_id": 5060934174,
+        "wltask_revision": 1
     }
 }
