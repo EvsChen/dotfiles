@@ -127,5 +127,21 @@
         "priority": 1,
         "wltask_id": 5071184799,
         "wltask_revision": 1
+    },
+    "87": {
+        "_id": 87,
+        "_date": "Fri May 31 2019",
+        "_timestamp": 1559292756070,
+        "description": "write script to export typescript interface from gql",
+        "isStarred": false,
+        "boards": [
+            "@glow"
+        ],
+        "_isTask": true,
+        "isComplete": false,
+        "inProgress": true,
+        "priority": 1,
+        "wltask_id": 5071290178,
+        "wltask_revision": 1
     }
 }
