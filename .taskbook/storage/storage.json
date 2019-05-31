@@ -111,16 +111,5 @@
             "@glow"
         ],
         "_isTask": false
-    },
-    "89": {
-        "_id": 89,
-        "_date": "Wed May 29 2019",
-        "_timestamp": 1559131159805,
-        "description": "branch name: fe-error",
-        "isStarred": false,
-        "boards": [
-            "@glow"
-        ],
-        "_isTask": false
     }
 }
