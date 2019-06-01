@@ -1,18 +1,4 @@
 {
-    "25": {
-        "_id": 25,
-        "_date": "Mon Apr 08 2019",
-        "_timestamp": 1554691576471,
-        "description": "leetcode",
-        "isStarred": false,
-        "boards": [
-            "@daily"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
-        "priority": "2"
-    },
     "30": {
         "_id": 30,
         "_date": "Wed Apr 10 2019",
@@ -87,8 +73,8 @@
     },
     "75": {
         "_id": 75,
-        "_date": "Tue May 07 2019",
-        "_timestamp": 1557196178830,
+        "_date": "Sat Jun 01 2019",
+        "_timestamp": 1559385848006,
         "description": "learn webgl",
         "isStarred": false,
         "boards": [
@@ -96,7 +82,7 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
         "wltask_id": 4994807708,
         "wltask_revision": 1
