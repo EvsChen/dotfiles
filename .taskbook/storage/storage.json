@@ -151,22 +151,6 @@
         "wltask_id": 5073872261,
         "wltask_revision": 1
     },
-    "94": {
-        "_id": 94,
-        "_date": "Sat Jun 01 2019",
-        "_timestamp": 1559363203282,
-        "description": "arrange tasks in year-month-week view",
-        "isStarred": false,
-        "boards": [
-            "@personal"
-        ],
-        "_isTask": true,
-        "isComplete": false,
-        "inProgress": true,
-        "priority": 1,
-        "wltask_id": 5073876313,
-        "wltask_revision": 1
-    },
     "95": {
         "_id": 95,
         "_date": "Sat Jun 01 2019",
@@ -178,10 +162,9 @@
         ],
         "_isTask": true,
         "isComplete": false,
-        "inProgress": true,
+        "inProgress": false,
         "priority": 1,
-        "wltask_id": 5073876910,
-        "wltask_revision": 1
+        "wltask_id": 5073876910
     },
     "96": {
         "_id": 96,
