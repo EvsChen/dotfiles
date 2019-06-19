@@ -8,6 +8,7 @@
 - Install [VSCode](https://code.visualstudio.com/)
 
 ## CLI Tools
+- [Oh My Zsh](https://ohmyz.sh/)
 - [Autojump](https://github.com/wting/autojump)
 
 ## Web dev setup
