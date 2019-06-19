@@ -45,3 +45,5 @@ Input sources += pinyin simplified
 - [Quiver](https://xclient.info/s/quiver.html#versions)
     - Restore backup from nutstore files
 
+## GitHub Multiple Accounts Setup
+To use multiple GitHub accounts on the same machine, follow the tutorial [here](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
