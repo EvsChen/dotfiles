@@ -2,9 +2,17 @@
 
 ## Steps
 - Install [shadowsocks-NG](https://github.com/shadowsocks/ShadowsocksX-NG). Enter server address and password.
+- Install [Homebrew](https://brew.sh/)
 - Install [Chrome](https://www.google.com/chrome/)
 - Install [Nutstore](https://www.jianguoyun.com/s/downloads)
 - Install [VSCode](https://code.visualstudio.com/)
+
+## CLI Tools
+- [Autojump](https://github.com/wting/autojump)
+
+## Web dev setup
+- Yarn: `brew install yarn`
+- Install [nvm](https://github.com/nvm-sh/nvm)
 
 ## System preferences for MacOS
 Trackpad:
@@ -32,8 +40,8 @@ Input sources += pinyin simplified
 	- Extras: folders & documents
     - Features -> File search
 	- Don't show: select all
-- [Moom](https://xclient.info/s/moom.html)
-- [Paste](https://xclient.info/s/paste-for-mac.html)
+- [Moom <= 3.2.11](https://xclient.info/s/moom.html)
+- [Paste <= 2.4.1](https://xclient.info/s/paste-for-mac.html)
 - [Quiver](https://xclient.info/s/quiver.html#versions)
     - Restore backup from nutstore files
 
