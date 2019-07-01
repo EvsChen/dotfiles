@@ -112,7 +112,7 @@ let g:fzf_action = {
 " ale
 inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" : "\<TAB>"
-let g:ale_linters = { 'python': ['pylint', 'pyls'], 'cpp': ['clangd']}
+let g:ale_linters = { 'python': ['pylint', 'pyls'], 'cpp': ['clang']}
 let g:ale_open_list = 1
 let g:ale_completion_enabled = 1
 let g:ale_keep_list_window_open = 1
