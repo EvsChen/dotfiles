@@ -112,6 +112,7 @@ let g:ale_completion_enabled = 1
 let g:ale_keep_list_window_open = 1
 let g:ale_completion_max_suggestions = 10
 let g:ale_python_flake8_options = '--ignore=E252 --max-line-length=120'
+let g:ale_c_parse_compile_commands = 1
 let g:ale_python_pyls_config = {
                                 \'pyls': {
                                         \'plugins': {
