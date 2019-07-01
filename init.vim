@@ -9,6 +9,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf'
 Plug 'flazz/vim-colorschemes'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install', 'for': 'markdown'}
+Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clang-completer' }
 call plug#end()
 
 set fileencoding=utf-8
