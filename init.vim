@@ -69,6 +69,11 @@ inoremap <Left> <nop>
 inoremap <Right> <nop>
 inoremap <Esc> <nop>
 " autocmd
+augroup filetype_cpp
+				autocmd!
+				autocmd FileType cpp let g:ale_cpp_clangd_options = '-compile-commands-dir=build'
+augroup END
+
 augroup filetype_js
         autocmd!
         autocmd FileType javascript nnoremap <localleader>c <buffer> I//<esc>
