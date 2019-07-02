@@ -72,8 +72,8 @@ inoremap <Right> <nop>
 inoremap <Esc> <nop>
 " autocmd
 augroup filetype_cpp
-				autocmd!
-				autocmd FileType cpp let g:ale_cpp_clangd_options = '-compile-commands-dir=build'
+	autocmd!
+	autocmd FileType cpp let g:ale_cpp_clangd_options = '-compile-commands-dir=build'
 augroup END
 
 augroup filetype_js
@@ -141,3 +141,5 @@ map <C-n> :NERDTreeToggle %<CR>
 let g:NERDTreeHijackNetrw=0
 
 " fzf
+" ycm
+let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
