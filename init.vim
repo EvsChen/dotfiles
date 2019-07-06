@@ -16,7 +16,7 @@ set fileencoding=utf-8
 set expandtab
 set number
 set softtabstop =4         " Tab key indents by 4 spaces.
-set shiftwidth  =4    
+set shiftwidth  =4
 colorscheme blackboard
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
@@ -25,7 +25,7 @@ let maplocalleader = "\\"
 iabbrev adn and
 iabbrev waht what
 iabbrev @@ chensy1996@gmail.com
-noremap <leader>ta :Windows<cr> 
+noremap <leader>ta :Windows<cr>
 noremap <leader>tw :tabclo<cr>
 inoremap <leader><c-u> <esc>viwUwa
 nnoremap <leader><c-u> viwUw
@@ -74,6 +74,7 @@ inoremap <Esc> <nop>
 augroup filetype_cpp
 	autocmd!
 	autocmd FileType cpp let g:ale_cpp_clangd_options = '-compile-commands-dir=build'
+        autocmd FileType cpp let g:ale_completion_enabled = 0
 augroup END
 
 augroup filetype_js
