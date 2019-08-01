@@ -36,9 +36,10 @@ inoremap jk <esc>
 
 " Match parenthese and quotation mark
 inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
-inoremap { {<CR><BS>}<Esc>ko
+inoremap { {}<Esc>i
 
 " In next parenthese
 onoremap in( :<c-u>normal! f(vi(<cr>
