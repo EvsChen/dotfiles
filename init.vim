@@ -32,6 +32,8 @@ nnoremap <leader><c-u> viwUw
 nnoremap <leader>ev :split $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>v
+inoremap <C-e> <C-o>A
+inoremap <C-a> <C-o>I
 inoremap jk <esc>
 
 " Match parenthese and quotation mark
