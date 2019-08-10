@@ -3,6 +3,7 @@ filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-fugitive'
 Plug 'w0rp/ale'
 Plug 'junegunn/fzf.vim'
@@ -144,6 +145,11 @@ augroup END
 map <C-n> :NERDTreeToggle %<CR>
 let g:NERDTreeHijackNetrw=0
 
-" fzf
+"NerdCommenter
+let g:NERDDefaultAlign = 'left'
+let g:NERDSpaceDelims = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDCompactSexyComs = 1
+
 " ycm
 let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
