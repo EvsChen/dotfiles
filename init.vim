@@ -38,11 +38,13 @@ inoremap <C-a> <C-o>I
 inoremap jk <esc>
 
 " Match parenthese and quotation mark
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-inoremap { {}<Esc>i
+" inoremap ( ()<Esc>i
+" inoremap         (  ()<C-G>U<Left>
+" inoremap <expr>  )  strpart(getline('.'), col('.')-1, 1) == ")" ? "\<C-G>U\<Right>" : ")"
+" inoremap [ []<Esc>i
+" inoremap " ""<Esc>i
+" inoremap ' ''<Esc>i
+" inoremap { {}<Esc>i
 
 " In next parenthese
 onoremap in( :<c-u>normal! f(vi(<cr>
