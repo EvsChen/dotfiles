@@ -11,6 +11,7 @@ Plug 'junegunn/fzf'
 Plug 'flazz/vim-colorschemes'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install', 'for': 'markdown'}
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clang-completer' }
+Plug 'lervag/vimtex'
 call plug#end()
 
 set fileencoding=utf-8
@@ -155,3 +156,8 @@ let g:NERDCompactSexyComs = 1
 
 " ycm
 let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+
+" vimtex
+let g:tex_flavor  = 'latex'
+let g:vimtex_latexmk_continuous = 1
+let g:vimtex_compiler_progname = 'nvr'
