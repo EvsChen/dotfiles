@@ -166,5 +166,5 @@ let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.
 let g:tex_flavor  = 'latex'
 let g:vimtex_latexmk_continuous = 1
 let g:vimtex_compiler_progname = 'nvr'
-set conceallevel=2
-let g:tex_conceal='abdmg'
+set conceallevel=1
+let g:tex_conceal='abdgm'
