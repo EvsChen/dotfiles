@@ -14,12 +14,13 @@ Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clang-completer' }
 Plug 'lervag/vimtex'
 call plug#end()
 
+colorscheme blackboard
+
 set fileencoding=utf-8
 set expandtab
 set number
 set softtabstop =4         " Tab key indents by 4 spaces.
 set shiftwidth  =4
-colorscheme blackboard
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 let mapleader = ","
