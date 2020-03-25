@@ -16,7 +16,7 @@ int main() {
   string input;
   while (true) {
     cout << "Input price: " << endl;
-    cin >> input;
+    getline(cin, input);
     if (input == "end") {
       cout << "Final price" << endl;
       printPrice();
@@ -25,7 +25,7 @@ int main() {
     float current = stof(input);
     cout << "current price is: " << current << endl;
     cout << "Input people CSY(0) LGX(1) HY(2) LDC(3):" << endl;
-    cin >> input;
+    getline(cin, input);
     bool flag[4] = { false, false, false, false };
     int count = 0;
     for (char c : input) {
