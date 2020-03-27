@@ -45,8 +45,13 @@ void loadCache(ifstream &cache) {
     }
     int quantity;
     for (int i = start; i < line.size(); i++) {
-      
+      if (line[i] == '|') {
+        start = i + 1;
+        quantity = stoi(line.substr(start, i - start));
+      }
     }
+    float price = stof(line.substr(start, line.size() - start));
+    items[people].push_back({ name, quantity, price });
   }
   printPrice();
 }
@@ -69,7 +74,7 @@ int main() {
     getline(cin, input);
     if (input == "end") {
       printPrice();
-      remove(cacheName);
+      remove(cacheName.c_str());
       break;
     }
     string name = input;
