@@ -17,9 +17,9 @@ void printPrice() {
   for (int i = 0; i < 4; i++) {
     cout << "Price for " << names[i] << " is " << endl;
     float price = 0.f;
-    printf("%20s|%10s|%10s\n", "Name", "Quantity", "Price");
+    printf("%40s|%10s|%8s\n", "Name", "Quantity", "Price");
     for (const Item &item : items[i]) {
-      printf("%20s|%10d|%10f\n", item.name.c_str(), item.quantity, item.price);
+      printf("%40s|%10d|%8f\n", item.name.c_str(), item.quantity, item.price);
       price += item.price;
     }
     printf("\n");
