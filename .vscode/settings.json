@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "*.js ": "javascript",
-    "string": "cpp"
+    "string": "cpp",
+    "iosfwd": "cpp"
   }
 }

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ struct Item {
 
 vector<Item> items[4];
 string names[4] = { "CSY", "LGX", "HY", "LDC" };
+string cacheName = "moneny_cache";
 
 void printPrice() {
   for (int i = 0; i < 4; i++) {
@@ -28,7 +30,18 @@ void printPrice() {
   }
 }
 
+void loadCache(const ifstream &cache) {
+
+}
+
 int main() {
+  ifstream cache(cacheName);
+  if (cache.good()) {
+    loadCache(cache);
+    cache.close();    
+  }
+  ofstream ocache(cacheName);
+
   string input;
   while (true) {
     cout << "Input name " << endl;
