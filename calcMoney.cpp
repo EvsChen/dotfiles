@@ -13,7 +13,7 @@ struct Item {
 
 vector<Item> items[4];
 string names[4] = { "CSY", "LGX", "HY", "LDC" };
-string cacheName = "moneny_cache";
+string cacheName = "money_cache";
 
 void printPrice() {
   for (int i = 0; i < 4; i++) {
@@ -101,25 +101,38 @@ int main() {
       } catch (const std::exception &e) {
         cout << "Invalid quantity. Please try again!" << endl;
       }
-    }
-    
+    }    
     current *= quantity;
 
-    cout << "Input people CSY(0) LGX(1) HY(2) LDC(3):" << endl;
-    getline(cin, input);
     bool flag[4] = { false, false, false, false };
     int count = 0;
-    
-    if (input.size() == 0) {
-      // Input size = 0, consider all
-      for (int i = 0; i < 4; i++) flag[i] = true;
-      count = 4;
-    } else {
-      for (char c : input) {
-        flag[c - '0'] = true;
-        count++;
+    while (true) {
+      cout << "Input people CSY(0) LGX(1) HY(2) LDC(3):" << endl;
+      getline(cin, input);
+      if (input.size() == 0) {
+        // Input size = 0, consider all
+        for (int i = 0; i < 4; i++) flag[i] = true;
+        count = 4;
+        break;
+      } else {
+        bool valid = true;
+        for (char c : input) {
+          if (c < '0' || c > '3') {
+            valid = false;
+          }
+          flag[c - '0'] = true;
+          count++;
+        }
+        if (valid) {
+          break;
+        }
+        // reset
+        cout << "Invalid people. Try again" << endl;
+        count = 0;
+        for (int i = 0; i < 4; i++) flag[i] = false;
       }
     }
+    
     
     for (int i = 0; i < 4; i++) {
       if (flag[i]) {
