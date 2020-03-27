@@ -11,30 +11,37 @@ struct Item {
 };
 
 vector<Item> items[4];
-
+string names[4] = { "CSY", "LGX", "HY", "LDC" };
 
 void printPrice() {
-  float price[4];
-  cout << "CSY: " << price[0] << endl;
-  cout << "LGX: " << price[1] << endl;
-  cout << "HY: " << price[2] << endl;
-  cout << "LDC: " << price[3] << endl;
+  for (int i = 0; i < 4; i++) {
+    cout << "Price for " << names[i] << " is " << endl;
+    float price = 0.f;
+    printf("%20s|%10s|%10s\n", "Name", "Quantity", "Price");
+    for (const Item &item : items[i]) {
+      printf("%20s|%10d|%10f\n", item.name.c_str(), item.quantity, item.price);
+      price += item.price;
+    }
+    printf("\n");
+    printf("Total price is %f\n", price);
+    printf("\n");
+  }
 }
 
 int main() {
   string input;
   while (true) {
-    cout << "Input price: " << endl;
+    cout << "Input name " << endl;
     getline(cin, input);
     if (input == "end") {
       printPrice();
       break;
     }
-    float current = stof(input);
-
-    cout << "Input name; " << endl;
-    getline(cin, input);
     string name = input;
+
+    cout << "Input price: " << endl;
+    getline(cin, input);
+    float current = stof(input);
 
     cout << "Input quantity: " << endl;
     getline(cin, input);
