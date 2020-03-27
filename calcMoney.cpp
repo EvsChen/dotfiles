@@ -30,8 +30,29 @@ void printPrice() {
   }
 }
 
-void loadCache(const ifstream &cache) {
+void loadCache(ifstream &cache) {
+  string line;
+  while (getline(cache, line)) {
+    int people = line[0] - '0';
+    string name;
+    int start = 2;
+    for (int i = 2; i < line.size(); i++) {
+      if (line[i] == '|') {
+        start = i + 1;
+        name = line.substr(2, i - 2);
+        break;
+      }
+    }
+    int quantity;
+    for (int i = start; i < line.size(); i++) {
+      
+    }
+  }
+  printPrice();
+}
 
+void cacheItem(int people, const Item &item, ofstream &cache) {
+  cache << people << "|" << item.name << "|" << item.quantity << "|" << item.price << endl;
 }
 
 int main() {
@@ -48,6 +69,7 @@ int main() {
     getline(cin, input);
     if (input == "end") {
       printPrice();
+      remove(cacheName);
       break;
     }
     string name = input;
@@ -81,7 +103,9 @@ int main() {
     
     for (int i = 0; i < 4; i++) {
       if (flag[i]) {
-        items[i].push_back({ name, quantity, current / (float)count });
+        Item item = { name, quantity, current / (float)count };
+        cacheItem(i, item, ocache);
+        items[i].push_back(item);
       }
     }
     printPrice();
