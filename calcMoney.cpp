@@ -3,6 +3,11 @@
 
 using namespace std;
 
+struct Item {
+  string name;
+  float price;
+}
+
 float price[4];
 
 void printPrice() {
