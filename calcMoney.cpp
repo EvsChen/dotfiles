@@ -79,16 +79,31 @@ int main() {
     }
     string name = input;
 
-    cout << "Input price: " << endl;
-    getline(cin, input);
-    float current = stof(input);
+    float current;
+    while (true) {
+      cout << "Input price: " << endl;
+      getline(cin, input);
+      try {
+        current = stof(input);
+        break;
+      } catch(const std::exception &e) {
+        cout << "Invalid price. Please try again!" << endl;
+      }
+    }
 
-    cout << "Input quantity: " << endl;
-    getline(cin, input);
-    int quantity = stoi(input);
+    int quantity;
+    while (true) {
+      cout << "Input quantity: " << endl;
+      getline(cin, input);
+      try {
+        quantity = stoi(input);
+        break;
+      } catch (const std::exception &e) {
+        cout << "Invalid quantity. Please try again!" << endl;
+      }
+    }
+    
     current *= quantity;
-
-    cout << "Current price is: " << current << endl;
 
     cout << "Input people CSY(0) LGX(1) HY(2) LDC(3):" << endl;
     getline(cin, input);
@@ -113,7 +128,6 @@ int main() {
         items[i].push_back(item);
       }
     }
-    printPrice();
   }
   return 0;
 }
