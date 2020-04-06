@@ -66,7 +66,7 @@ int main() {
     loadCache(cache);
     cache.close();    
   }
-  ofstream ocache(cacheName);
+  ofstream ocache(cacheName, ofstream::app);
 
   string input;
   while (true) {
