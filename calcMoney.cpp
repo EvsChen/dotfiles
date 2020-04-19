@@ -48,6 +48,7 @@ void loadCache(ifstream &cache) {
       if (line[i] == '|') {
         start = i + 1;
         quantity = stoi(line.substr(start, i - start));
+        break;
       }
     }
     float price = stof(line.substr(start, line.size() - start));
