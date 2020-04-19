@@ -6,6 +6,7 @@
 using namespace std;
 
 struct Item {
+  Item(string s, int q, float p) : name(s), quantity(q), price(p) {}
   string name;
   int quantity;
   float price;
@@ -38,21 +39,21 @@ void loadCache(ifstream &cache) {
     int start = 2;
     for (int i = 2; i < line.size(); i++) {
       if (line[i] == '|') {
-        start = i + 1;
         name = line.substr(2, i - 2);
+        start = i + 1;
         break;
       }
     }
     int quantity;
     for (int i = start; i < line.size(); i++) {
       if (line[i] == '|') {
-        start = i + 1;
         quantity = stoi(line.substr(start, i - start));
+        start = i + 1;
         break;
       }
     }
     float price = stof(line.substr(start, line.size() - start));
-    items[people].push_back({ name, quantity, price });
+    items[people].push_back(Item(name, quantity, price));
   }
   printPrice();
 }

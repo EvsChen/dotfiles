@@ -3,6 +3,7 @@
     "*.js ": "javascript",
     "string": "cpp",
     "iosfwd": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp"
   }
 }
