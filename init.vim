@@ -25,9 +25,6 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 let mapleader = ","
 let maplocalleader = "\\"
-iabbrev adn and
-iabbrev waht what
-iabbrev @@ chensy1996@gmail.com
 noremap <leader>ta :Windows<cr>
 noremap <leader>tw :tabclo<cr>
 inoremap <leader><c-u> <esc>viwUwa
