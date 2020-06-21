@@ -6,9 +6,8 @@
 using namespace std;
 
 struct Item {
-  Item(string s, int q, float p) : name(s), quantity(q), price(p) {}
+  Item(string s, float p) : name(s), price(p) {}
   string name;
-  int quantity;
   float price;
 };
 
@@ -20,9 +19,9 @@ void printPrice() {
   for (int i = 0; i < 4; i++) {
     cout << "Price for " << names[i] << " is " << endl;
     float price = 0.f;
-    printf("%40s|%10s|%8s\n", "Name", "Quantity", "Price");
+    printf("%40s|%8s\n", "Name", "Price");
     for (const Item &item : items[i]) {
-      printf("%40s|%10d|%8f\n", item.name.c_str(), item.quantity, item.price);
+      printf("%40s|%8f\n", item.name.c_str(), item.price);
       price += item.price;
     }
     printf("\n");
@@ -44,14 +43,6 @@ void loadCache(ifstream &cache) {
         break;
       }
     }
-    int quantity;
-    for (int i = start; i < line.size(); i++) {
-      if (line[i] == '|') {
-        quantity = stoi(line.substr(start, i - start));
-        start = i + 1;
-        break;
-      }
-    }
     float price = stof(line.substr(start, line.size() - start));
     items[people].push_back(Item(name, quantity, price));
   }
@@ -59,7 +50,7 @@ void loadCache(ifstream &cache) {
 }
 
 void cacheItem(int people, const Item &item, ofstream &cache) {
-  cache << people << "|" << item.name << "|" << item.quantity << "|" << item.price << endl;
+  cache << people << "|" << item.name << "|" << item.price << endl;
 }
 
 int main() {
@@ -93,19 +84,6 @@ int main() {
       }
     }
 
-    int quantity;
-    while (true) {
-      cout << "Input quantity: " << endl;
-      getline(cin, input);
-      try {
-        quantity = stoi(input);
-        break;
-      } catch (const std::exception &e) {
-        cout << "Invalid quantity. Please try again!" << endl;
-      }
-    }    
-    current *= quantity;
-
     bool flag[4] = { false, false, false, false };
     int count = 0;
     while (true) {
@@ -138,7 +116,7 @@ int main() {
     
     for (int i = 0; i < 4; i++) {
       if (flag[i]) {
-        Item item = { name, quantity, current / (float)count };
+        Item item = { name, current / (float)count };
         cacheItem(i, item, ocache);
         items[i].push_back(item);
       }
