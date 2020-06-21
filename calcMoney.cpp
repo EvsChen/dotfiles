@@ -44,7 +44,7 @@ void loadCache(ifstream &cache) {
       }
     }
     float price = stof(line.substr(start, line.size() - start));
-    items[people].push_back(Item(name, quantity, price));
+    items[people].push_back(Item(name, price));
   }
   printPrice();
 }
